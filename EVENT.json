@@ -1,0 +1,26 @@
+{
+  "@type": [
+    "https://onerecord.iata.org/cargo/Event"
+  ],
+  "https://onerecord.iata.org/cargo/Event#dateTime": "Fri Sep 13 14:21:45 GMT+08:00 2021",
+  "https://onerecord.iata.org/cargo/Event#eventCode": "MAIL_FLIGHT_TAKEOFF_CARRIER",
+  "https://onerecord.iata.org/cargo/Event#eventName": "Flight Departure",
+  "https://onerecord.iata.org/cargo/Event#eventTypeIndicator": "ACTUAL",
+  "https://onerecord.iata.org/cargo/Event#location": {
+    "@type": [
+      "https://onerecord.iata.org/cargo/Location"
+    ],
+    "https://onerecord.iata.org/cargo/Location#code": "DME",
+    "https://onerecord.iata.org/cargo/Location#locationName": "MOSCOW",
+    "https://onerecord.iata.org/cargo/Location#locationType": "IMPC"
+  },
+  "https://onerecord.iata.org/cargo/Event#linkedObject": "http://onerecord.cargoport.aero/companies/RUSSIAN_POST/los/Piece_567000",
+  "https://onerecord.iata.org/cargo/Event#performedBy": {
+    "@type": [
+      "https://onerecord.iata.org/cargo/Company"
+    ],
+    "https://onerecord.iata.org/cargo/Company#airlineCode": "SU",
+    "https://onerecord.iata.org/cargo/Company#airlinePrefix": 102,
+    "https://onerecord.iata.org/cargo/Company#companyName": "AEROFLOT"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "@type": [
+    "https://onerecord.iata.org/cargo/ULD"
+  ],
+  "https://onerecord.iata.org/cargo/LogisticsObject#companyIdentifier": "http://onerecord.cargoport.aero/companies/AEROFLOT",
+ 
+  "---###---": "ULD container", 
+  "https://onerecord.iata.org/cargo/ULD#uldTypeCode": "AKE",
+  "https://onerecord.iata.org/cargo/ULD#serialNumber": "37826",
+ 
+
+
+  "---###---": "PIECE",
+  "https://onerecord.iata.org/cargo/ULD#upid": [
+   
+    {
+    "@type": [
+      "https://onerecord.iata.org/cargo/Piece"
+    ],
+     "@id" : "http://onerecord.cargoport.aero/companies/RUSSIAN_POST/los/Piece_464341" 
+    },
+    
+
+    {
+    "@type": [
+      "https://onerecord.iata.org/cargo/Piece"
+    ],
+     "@id" : "http://onerecord.cargoport.aero/companies/RUSSIAN_POST/los/Piece_464341" 
+    }
+
+  ]
+
+
+  
+}

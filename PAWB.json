@@ -1,0 +1,14 @@
+{
+  "@type": [
+    "https://onerecord.iata.org/cargo/Waybill"
+  ],
+
+  "https://onerecord.iata.org/cargo/LogisticsObject#companyIdentifier": "http://onerecord.cargoport.aero/companies/AEROFLOT",
+  "---###---": "POSTAL AIRWAY BILL (PAWB)", 
+  "---###---": "Prefix & House or Master Waybill unique identifier", 
+
+  "https://onerecord.iata.org/cargo/waybill#waybillPrefix": "800",
+  "https://onerecord.iata.org/cargo/waybill#waybillNumber": "01104165",
+  "https://onerecord.iata.org/cargo/waybill#waybillType": "Master"
+
+}

@@ -1,0 +1,150 @@
+{
+  "@type": [
+    "https://onerecord.iata.org/cargo/Piece"
+  ],
+  "https://onerecord.iata.org/cargo/LogisticsObject#companyIdentifier": "http://onerecord.cargoport.aero/companies/RUSSIAN_POST",
+  
+  "@id": "http://onerecord.cargoport.aero/companies/RUSSIAN_POST/los/Piece_464341",
+ 
+  "---###---": "UPU CONSIGNMENT (CN38)",
+  "https://onerecord.iata.org/cargo/Piece#goodsDescription": "CONSIGNMENT (CN38)",
+
+
+  "---###---": "Origin Country",
+  "https://onerecord.iata.org/cargo/Piece#productionCountry": [
+    {
+      "@type": [
+        "https://onerecord.iata.org/cargo/Country"
+      ],
+      "https://onerecord.iata.org/cargo/Country#countryCode": "RU",
+      "https://onerecord.iata.org/cargo/Country#countryName": "RUSSIA"
+    }
+  ],
+
+  
+  "---###---": "Number of(total contained pieces)",
+  "https://onerecord.iata.org/cargo/Piece#slac": 8,
+
+  
+  "---###---": "Gross weight in kilos",
+  "https://onerecord.iata.org/cargo/Piece#grossWeight": {
+    "@type": [
+      "https://onerecord.iata.org/cargo/Value"
+    ],
+    "https://onerecord.iata.org/cargo/Value#value": 38.8
+  },
+
+
+  "---###---": "Load Type: Specify how the piece will be delivered (bulk or ULD)",
+  "https://onerecord.iata.org/cargo/Piece#loadType": "ULD",
+
+ 
+
+  "---###---": "Special Handling details",
+  "https://onerecord.iata.org/cargo/Piece#specialHandling": {
+    "@type": [
+      "https://onerecord.iata.org/cargo/SpecialHandling"
+    ],
+
+    "https://onerecord.iata.org/cargo/SpecialHandling#code": "MAL",
+    "https://onerecord.iata.org/cargo/SpecialHandling#handlingText": "AIR MAIL"
+  },
+
+
+
+  "---###---": "PIECE",
+  "https://onerecord.iata.org/cargo/Piece#containedPieces": [
+   
+    {
+    "@type": [
+      "https://onerecord.iata.org/cargo/Piece"
+    ],
+     "@id" : "http://onerecord.cargoport.aero/companies/RUSSIAN_POST/los/Piece_673543" 
+    },
+
+
+    {
+    "@type": [
+      "https://onerecord.iata.org/cargo/Piece"
+    ],
+     "@id" : "http://onerecord.cargoport.aero/companies/RUSSIAN_POST/los/Piece_592096" 
+    },
+
+    {
+    "@type": [
+      "https://onerecord.iata.org/cargo/Piece"
+    ],
+     "@id" : "http://onerecord.cargoport.aero/companies/RUSSIAN_POST/los/Piece_942208" 
+    },
+
+    {
+    "@type": [
+      "https://onerecord.iata.org/cargo/Piece"
+    ],
+     "@id" : "http://onerecord.cargoport.aero/companies/RUSSIAN_POST/los/Piece_918406" 
+    },
+
+    {
+    "@type": [
+      "https://onerecord.iata.org/cargo/Piece"
+    ],
+     "@id" : "http://onerecord.cargoport.aero/companies/RUSSIAN_POST/los/Piece_033914" 
+    },
+
+    {
+    "@type": [
+      "https://onerecord.iata.org/cargo/Piece"
+    ],
+     "@id" : "http://onerecord.cargoport.aero/companies/RUSSIAN_POST/los/Piece_342953" 
+    },
+
+    {
+    "@type": [
+      "https://onerecord.iata.org/cargo/Piece"
+    ],
+     "@id" : "http://onerecord.cargoport.aero/companies/RUSSIAN_POST/los/Piece_268484" 
+    },
+
+    {
+    "@type": [
+      "https://onerecord.iata.org/cargo/Piece"
+    ],
+     "@id" : "http://onerecord.cargoport.aero/companies/RUSSIAN_POST/los/Piece_503786" 
+    }
+
+
+  ],
+
+
+
+  "---###---": "Reference to ULD)",
+  "https://onerecord.iata.org/cargo/Piece#uldReference": [
+    {
+      "@type": [
+        "https://onerecord.iata.org/cargo/ULD"
+      ],
+      "@id" : "http://onerecord.cargoport.aero/companies/AEROFLOT/los/Uld_432682" 
+    }
+  ],
+
+
+
+
+  "---###---": "REference to PAWB (Postal Air Way Bill)",
+  "https://onerecord.iata.org/cargo/Piece#externalReference": [
+    {
+      "@type": [
+        "https://onerecord.iata.org/cargo/ExternalReference"
+      ],
+      "https://onerecord.iata.org/cargo/ExternalReference#documentID": "http://onerecord.cargoport.aero/companies/AEROFLOT/los/Waybill_151326",
+      "https://onerecord.iata.org/cargo/ExternalReference#documentName": "PostalAirWaybill",
+      "https://onerecord.iata.org/cargo/ExternalReference#documentType": "https://onerecord.iata.org/cargo/Waybill",
+      "https://onerecord.iata.org/cargo/ExternalReference#documentVersion": "1.0"
+    }
+  ],
+
+
+  "---###---": "Unique Piece Identifier (UPID) of the piece (Refer IATA Recommended Practice 1689) or URI if virtual grouping of pieces",
+  "---###---": "CN38 DELIVERY BILL (29 char) Sample: RUMOWG116C8A",
+  "https://onerecord.iata.org/cargo/Piece#upid": "RUMOWG116C8A"
+}

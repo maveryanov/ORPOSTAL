@@ -1,0 +1,36 @@
+{
+  "@type": [
+    "https://onerecord.iata.org/cargo/Piece"
+  ],
+  "https://onerecord.iata.org/cargo/LogisticsObject#companyIdentifier": "http://onerecord.cargoport.aero/companies/RUSSIAN_POST",
+
+ 
+  "---###---": "UPU RECEPTACLES (S9): letter post, parcel post or EMS", 
+  "https://onerecord.iata.org/cargo/Piece#goodsDescription": "RECEPTACLES(S9)",
+
+
+  "---###---": "Gross weight in kilos",
+  "https://onerecord.iata.org/cargo/Piece#grossWeight": {
+    "@type": [
+      "https://onerecord.iata.org/cargo/Value"
+    ],
+    "https://onerecord.iata.org/cargo/Value#value": 1.4
+  },
+
+
+  "---###---": "Special Handling details",
+  "https://onerecord.iata.org/cargo/Piece#specialHandling": {
+    "@type": [
+      "https://onerecord.iata.org/cargo/SpecialHandling"
+    ],
+
+    "https://onerecord.iata.org/cargo/SpecialHandling#code": "MAL",
+    "https://onerecord.iata.org/cargo/SpecialHandling#handlingText": "AIR MAIL"
+  },
+
+
+
+  "---###---": "Unique Piece Identifier (UPID) of the piece (Refer IATA Recommended Practice 1689) or URI if virtual grouping of pieces",
+  "---###---": "S9 Receptacle Identifier (29 char) Sample: DEFRAANLAMSAAUN40027002000258",
+  "https://onerecord.iata.org/cargo/Piece#upid": "RUMOWTUSJFKAAEN11396014010014"
+}
